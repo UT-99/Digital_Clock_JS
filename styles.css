@@ -32,9 +32,36 @@ body{
 }
 
 #messageBox{
-    background-color: white;
-    height: 10vh;
+    background-color: #FFFFFF;
+    height: auto;
     width: 13vw;
     padding: 2%;
     text-align: center;
+    border-radius: 2vh;
+    font-size: 100%;
+    color: #858585;
+}
+
+#menuBox{
+    background-color: #FFFFFF;
+    width: inherit;
+    border-radius: 8px;
+}
+
+#SetWakeUpTime , #SetLunchTime{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr  ;
+    grid-template-rows: auto;
+    padding: 2% 2%;
+}
+
+.spanClass{
+    color: #3D087B;
+    font-size: 1.1em;
+    font-family: sans-serif;
+}
+
+.optionClass
+{
+    color : #3D087BDE
 }
