@@ -130,7 +130,7 @@ body{
     width: 18%;
     background-color: white;
     height: 10vh;
-    padding: auto;
+    padding-top: 7%;
     margin: auto;
     color:#3D087B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -141,11 +141,11 @@ body{
     vertical-align: middle;
     background-color: #F6E2FF;
     height: auto;
-    width: 18%;   
-    
+    width: 18%;    
     color:#3D087B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1px 1vw ;
+    padding-top: 7%;
 }
 
 #mins{
@@ -154,7 +154,7 @@ body{
     background-color: #F6E2FF;
     height: auto;
     width: 18%;   
-  
+    padding-top: 7%;
     color:#3D087B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1px 1vw ;
@@ -167,7 +167,7 @@ body{
     height: auto;
     width: 18%;    
     color:#3D087B;
-
+    padding-top: 7%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1px 1vw ;
 }
@@ -182,7 +182,7 @@ body{
     color:#3D087B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1px 1vw ;
-    
+    padding-top: 7%;
     background: url('assets/Duration.png');
     background-repeat: no-repeat;
     background-size: cover;
