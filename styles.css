@@ -55,6 +55,17 @@ body{
     padding: 2% 2%;
 }
 
+
+.line{
+    width: 1px;
+    height: 55px;
+    border: 1px solid black;
+    background-color: black; 
+    border-collapse: separate;
+    margin: 0  0  0 4% ;
+    padding: 0;
+}
+
 .spanClass{
     color: #3D087B;
     font-size: 1.1em;
