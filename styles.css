@@ -156,7 +156,7 @@ body{
     color:#3D087B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1px 1vw ;
-    padding-top: 7%;
+    padding-top: 4%;
 }
 
 #mins{
@@ -165,7 +165,7 @@ body{
     background-color: #F6E2FF;
     height: auto;
     width: 18%;   
-    padding-top: 7%;
+    padding-top: 4%;
     color:#3D087B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1px 1vw ;
@@ -178,7 +178,7 @@ body{
     height: auto;
     width: 18%;    
     color:#3D087B;
-    padding-top: 7%;
+    padding-top: 4%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1px 1vw ;
 }
@@ -234,7 +234,7 @@ body{
 
 
 #timeText, #hours, #mins, #sec , #AMPM {
-    font-size: 1.2em ;
+    font-size: 1.1em ;
 
 }
 
