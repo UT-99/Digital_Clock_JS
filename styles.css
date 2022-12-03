@@ -353,18 +353,25 @@ body{
 
 
 
-@media screen and (min-width : 280px) and (max-width : 780px){
+@media screen and (min-width : 220px) and (max-width : 780px){
     
 #hours, #mins, #sec , #AMPM, #timeText {
     font-size: 1.2vw ;
 
 }
 
+#grabSomeBreakfast{
+    display: none;
+}
+
+#imageTag{
+    height: 50vh;
+}
 
 #allIcons{
     display: grid;
     height: 20%;
-    width: 60%;
+    width: 85%;
     background-color: #FFFFFF;
     grid-template-columns:  auto auto auto ;
     padding: 4% 4%;
@@ -492,13 +499,14 @@ body{
 
 #selectOptionOnlyforMobile{
     background-color: #FFFFFF;
-    width: auto;
+    width: 65%;
     border-radius: 5px;
     background-color: grey;
+    display: visible;
 }
 
 #takingAllValuesForMobile{
-    width: 100%;
+    width: 75%;
     background-color: skyblue;
     border-radius: 5px;
 }
@@ -515,6 +523,11 @@ body{
     #hours, #mins, #sec , #AMPM, #timeText {
         font-size: 1.5vw ;
     
+    }
+    
+
+    #selectOptionOnlyforMobile{
+        display: none;
     }
     
     }
