@@ -233,3 +233,25 @@ function getTimeDetails(){
     
 }
 
+
+function getDetailsTimingforMobile(){
+
+    var mobileWakeUptimeValue =document.getElementById('wakeUpTimeIdMobile').value
+    var mobileLunchtimeValue= document.getElementById('LunchTimeIdMobile').value
+    var mobileNaptimeValue = document.getElementById('SetNapTimeIdMobile').value
+    var mobileNighttimeValue =document.getElementById('NightTimeIdMobile').value
+
+    console.log("Mobile Wake Time  ",mobileWakeUptimeValue);
+    console.log("Mobile Lunch Time  ",mobileLunchtimeValue);
+    console.log("Mobile Nap Time  ",mobileNaptimeValue);
+    console.log("Mobile Night Time  ",mobileNighttimeValue );
+
+    document.getElementById('mobileWakeUptime').innerText="Mobile Wake Time  : " + " " + mobileWakeUptimeValue
+    document.getElementById('mobileLunchtime').innerText="Mobile Lunch Time  : " + " " +mobileLunchtimeValue
+    document.getElementById('mobileNaptime').innerText="Mobile Nap Time  : "+ " " + mobileNaptimeValue
+    document.getElementById('mobileeveningtime').innerText="Mobile Night Time  : "+ " " +mobileNighttimeValue
+
+
+
+
+}
