@@ -101,7 +101,7 @@ body{
 
 #setAlarmGridItem1{
     background: linear-gradient(to right , purple, lightpink);
-    grid-row:  1 / 2 ;
+    grid-row:  1 / 1  ;
     font-size: larger;
     font-weight: bolder;
     color: #FFFFFF;
@@ -115,11 +115,11 @@ body{
 
 #setAlarmGridItem2{
     background-color:  #5F0089;
-    grid-row:  1 / span 2 ; 
+    grid-row:  1 / span 2  ;
     border-radius: 5px;
     color: #F25CFE;
     font-family: Georgia, 'Times New Roman', Times, sans-serif;
-    padding: 5%;
+    padding: 4%;
     margin: 2%;
 }
 
@@ -183,6 +183,10 @@ body{
     margin: 1px 1vw ;
 }
 
+.colon{
+    padding-top: 6.5%;
+    font-size: x-large;
+}
 
 #AMPM{
     text-align: center;
@@ -226,4 +230,20 @@ body{
     height: 100% ;
     width: 100%;
     border-radius: 5px;
+}
+
+
+#timeText, #hours, #mins, #sec , #AMPM {
+    font-size: 1.2em ;
+
+}
+
+
+@media screen and (min-width : 280px) and (max-width : 780px){
+    
+#hours, #mins, #sec , #AMPM, #timeText {
+    font-size: 0.7em ;
+
+}
+
 }
