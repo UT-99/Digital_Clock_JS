@@ -105,9 +105,11 @@ function getTimeDetails(){
    else if (arrWakeTime[0] === (hrs+AMPM)){
             img = "<img  src='assets/Component 30 – 1.svg' alt=''>"
             document.getElementById('imageTag').innerHTML  = img;
-            document.getElementById('grabSomeBreakfastheading').innerText ="GRAB SOME HEALTHY BREAKFAST!!!"
-           document.getElementById('imageTag').style.height ='70%'
-           document.getElementById('imageTag').style.width ='70%'
+            document.getElementById('grabSomeBreakfastheading').innerText ="GRAB SOME HEALTHY BREAKFAST!!!. ";
+            document.getElementById('messageParaAsPerTime').innerText ="GRAB SOME HEALTHY BREAKFAST!!!. ";
+          
+            document.getElementById('imageTag').style.height ='70%'
+            document.getElementById('imageTag').style.width ='70%'
            
             
             console.log("Yes they  is our wake up time  ")
@@ -118,7 +120,8 @@ function getTimeDetails(){
    else if (arrLunchTime[0] === (hrs+AMPM)){
         img = "<img  src='assets/Component 31 – 1.svg' alt=''>"
         document.getElementById('imageTag').innerHTML  = img;
-        document.getElementById('grabSomeBreakfastheading').innerText ="LET'S HAVE SOME LUNCH !!"
+        document.getElementById('grabSomeBreakfastheading').innerText ="LET'S HAVE SOME LUNCH !!.  ";
+        document.getElementById('messageParaAsPerTime').innerText ="LET'S HAVE SOME LUNCH !!. ";
         document.getElementById('imageTag').style.height ='100%'
         document.getElementById('imageTag').style.width ='70%'
    
@@ -130,7 +133,8 @@ function getTimeDetails(){
    else if (arrNapTime[0] === (hrs+AMPM)){
     img = "<img  src='assets/goodEveningImage.png' alt=''>"
     document.getElementById('imageTag').innerHTML  = img;
-    document.getElementById('grabSomeBreakfastheading').innerText ="STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!"
+    document.getElementById('grabSomeBreakfastheading').innerText ="STOP YAWNING, GET SOME TEA.. ITS JUST EVENING  !!!   ";
+    document.getElementById('messageParaAsPerTime').innerText ="STOP YAWNING, GET SOME TEA.. ITS JUST EVENING  !!!  ";
     document.getElementById('imageTag').style.height ='100%'
     document.getElementById('imageTag').style.width ='70%'
 
@@ -144,7 +148,9 @@ function getTimeDetails(){
         img = "<img  src='assets/goodNightImage.png' alt=''>"
         document.getElementById('imageTag').innerHTML  = img;
         document.getElementById('grabSomeBreakfastheading').innerText
-         ="CLOSE YOUR EYES AND GO TO SLEEP"
+         ="CLOSE YOUR EYES AND GO TO SLEEP !!!!!.";
+         document.getElementById('messageParaAsPerTime').innerText="CLOSE YOUR EYES AND GO TO SLEEP  !!!!. ";
+    
 
         document.getElementById('imageTag').style.height ='100%'
         document.getElementById('imageTag').style.width ='70%'
