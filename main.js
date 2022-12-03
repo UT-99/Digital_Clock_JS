@@ -246,10 +246,10 @@ function getDetailsTimingforMobile(){
     console.log("Mobile Nap Time  ",mobileNaptimeValue);
     console.log("Mobile Night Time  ",mobileNighttimeValue );
 
-    document.getElementById('mobileWakeUptime').innerText="Mobile Wake Time  : " + " " + mobileWakeUptimeValue
-    document.getElementById('mobileLunchtime').innerText="Mobile Lunch Time  : " + " " +mobileLunchtimeValue
-    document.getElementById('mobileNaptime').innerText="Mobile Nap Time  : "+ " " + mobileNaptimeValue
-    document.getElementById('mobileeveningtime').innerText="Mobile Night Time  : "+ " " +mobileNighttimeValue
+    document.getElementById('mobileWakeUptime').innerText="Wake Time is   : " + " " + mobileWakeUptimeValue
+    document.getElementById('mobileLunchtime').innerText="Lunch Time is  : " + " " +mobileLunchtimeValue
+    document.getElementById('mobileNaptime').innerText="Nap Time is  : "+ " " + mobileNaptimeValue
+    document.getElementById('mobileeveningtime').innerText="Night Time is  : "+ " " +mobileNighttimeValue
 
 
 
