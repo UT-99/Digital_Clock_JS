@@ -10,8 +10,8 @@ function time(){
 
     
     
-    document.getElementById('mins').innerText = min + '\n'+ ' minute';
-    document.getElementById('sec').innerText = sec + '\n'+' second';
+    document.getElementById('mins').innerText = min + '\n'+ ' mins';
+    document.getElementById('sec').innerText = sec + '\n'+' secs';
     
 
     if (hrs > 12 ){
@@ -34,6 +34,41 @@ function time(){
 time();
 setInterval( time , 1000) // 1 sec me refresh hona
 
+function time2(){   
+
+    var date = new Date();  // Date object to be created 
+
+    var hrs = date.getHours();  // 24 hrs 
+    var min = date.getMinutes();
+    var sec = date.getSeconds();
+    var AMPM = '' ;     // string variable 
+
+
+    
+    
+    document.getElementById('mins2').innerText = min + '\n'+ ' mins';
+    document.getElementById('sec2').innerText = sec + '\n'+' secs';
+    
+
+    if (hrs > 12 ){
+        hrs =  hrs - 12  ;
+        AMPM = 'PM';  // 
+        document.getElementById('hours2').innerText = hrs +   '\n'+ ' hour';
+        document.getElementById('AMPM2').innerText = AMPM;
+
+    }
+    else {
+        document.getElementById('hours2').innerText = hrs +   '\n'+ ' hour';
+        AMPM = 'AM';
+        document.getElementById('AMPM2').innerText = AMPM;
+    }
+ 
+
+    
+}
+
+time2();
+setInterval( time2 , 1000)
 
  
 
@@ -49,8 +84,8 @@ function getTimeDetails(){
     var sec = date.getSeconds();
     var AMPM = '' ;   
     
-    document.getElementById('mins').innerText = min + '\n'+ ' minute';
-    document.getElementById('sec').innerText = sec + '\n'+' second';
+    document.getElementById('mins').innerText = min + '\n'+ ' mins';
+    document.getElementById('sec').innerText = sec + '\n'+' secs';
     
   
 

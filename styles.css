@@ -134,7 +134,33 @@ body{
     
 }
 
+#timeDiv2{
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 5px;   
+    display: none;
+    
+}
+
+
 #timeText{
+    text-align: center;
+    vertical-align: middle;
+    height: auto;
+    width: 18%;
+    background-color: white;
+    height: 10vh;
+    padding-top: 7%;
+    margin: auto;
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#timeText2{
     text-align: center;
     vertical-align: middle;
     height: auto;
@@ -159,7 +185,33 @@ body{
     padding-top: 4%;
 }
 
+
+#hours2{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: auto;
+    width: 18%;    
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+    padding-top: 4%;
+}
+
 #mins{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: auto;
+    width: 18%;   
+    padding-top: 4%;
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+}
+
+
+#mins2{
     text-align: center;
     vertical-align: middle;
     background-color: #F6E2FF;
@@ -183,7 +235,24 @@ body{
     margin: 1px 1vw ;
 }
 
+#sec2{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: auto;
+    width: 18%;    
+    color:#3D087B;
+    padding-top: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+}
+
 .colon{
+    padding-top: 6.5%;
+    font-size: x-large;
+}
+
+.colon2{
     padding-top: 6.5%;
     font-size: x-large;
 }
@@ -202,6 +271,23 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+#AMPM2{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: auto;
+    width: 18%;    
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+    padding-top: 7%;
+    background: url('assets/Duration.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #grabSomeBreakfast{
     background-color:  #FFFFFF;
     color:#8E53F0;
@@ -240,6 +326,19 @@ body{
 }
 
 
+#allIcons{
+    display: grid;
+    height: 20%;
+    width: 60%;
+    background-color: #FFFFFF;
+    grid-template-columns:  auto auto auto ;
+    padding: 4% 4%;
+    gap: 8px;
+    display: none;
+}
+
+
+
 
 @media screen and (min-width : 280px) and (max-width : 780px){
     
@@ -247,6 +346,132 @@ body{
     font-size: 1.2vw ;
 
 }
+
+
+#allIcons{
+    display: grid;
+    height: 20%;
+    width: 60%;
+    background-color: #FFFFFF;
+    grid-template-columns:  auto auto auto ;
+    padding: 4% 4%;
+    gap: 8px;
+    border-radius: 4px;
+}
+
+#menuBox {
+    display: none;
+}
+
+#timeDiv{
+    display: none;
+}
+
+
+
+
+/* for Time in mobile view  */
+
+
+#timeDiv2{
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 5px;   
+    font-size: 2.5vw;
+    
+    
+}
+
+
+
+#timeText2{
+    text-align: center;
+    vertical-align: middle;
+    height: auto;
+    width: 18%;
+    background-color: white;
+    height: 10vh;
+    padding-top: 7%;
+    margin: auto;
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+#hours2{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: auto;
+    width: 18%;    
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+    padding-top: 4%;
+}
+
+
+
+
+#mins2{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: auto;
+    width: 18%;   
+    padding-top: 4%;
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+}
+
+
+
+#sec2{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: auto;
+    width: 18%;    
+    color:#3D087B;
+    padding-top: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+}
+
+
+
+.colon2{
+    padding-top: 6.5%;
+    font-size: 1.5vw;
+}
+
+
+
+#AMPM2{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: auto;
+    width: 18%;    
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+    padding-top: 7%;
+    background: url('assets/Duration.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* For time in mobile view  */
+
 
 }
 
