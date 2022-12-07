@@ -145,6 +145,7 @@ body{
     width: 100%;
     background-color: #FFFFFF;
     border-radius: 5px;
+    padding: 2%;
     
     
 }
@@ -172,8 +173,36 @@ body{
     margin: auto;
     color:#3D087B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
 }
 
+#zindex2{
+    background-color: white;
+    border-radius: 6px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    position: relative;
+    bottom: 6px;
+    height: 20px;
+    z-index: -2;
+}
+
+
+
+#zindex3{
+    background-color: rgb(189, 182, 182);
+    border-radius: 6px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 15%;
+    color: rgb(189, 182, 182);
+    position: relative;
+    bottom: 9px;
+    height: 20px;
+    z-index: -4;
+}
 
 #timeText2{
     text-align: center;
@@ -360,6 +389,10 @@ body{
 #hours, #mins, #sec , #AMPM, #timeText {
     font-size: 1.2vw ;
 
+}
+
+#zindex3, #zindex2{
+    display: none;
 }
 
 #grabSomeBreakfast{
