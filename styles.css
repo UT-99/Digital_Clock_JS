@@ -386,11 +386,26 @@ body{
 
 
 @media screen and (min-width : 120px) and (max-width : 780px){
+
+
+#mainBodyFlexContainer{
+    display: flex;
+    flex-direction: column;
+}
+
     
 #hours, #mins, #sec , #AMPM, #timeText {
     font-size: 1.2vw ;
 
 }
+
+#mainBodyFlexItems1{
+    /* background-color: aqua; */
+     width: 100vw;
+     margin: 1.5%;
+     height: 100%;
+ }
+ 
 
 #mobileviewZindex2{
    
@@ -464,7 +479,7 @@ body{
     width: 100%;
     background-color: #FFFFFF;
     border-radius: 5px;   
-    font-size: 2.5vw;
+    font-size: 4vh;
     
     
 }
@@ -478,7 +493,7 @@ body{
     width: 18%;
     background-color: white;
     height: 8vh;
-    padding-top: 7%;
+    padding-top: 3%;
     margin: auto;
     color:#3D087B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -496,7 +511,8 @@ body{
     color:#3D087B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1px 1vw ;
-    padding-top: 4%;
+    padding-top: 2%;
+    font-size: 3vh;
 }
 
 
@@ -508,10 +524,11 @@ body{
     background-color: #F6E2FF;
     height: auto;
     width: 18%;   
-    padding-top: 4%;
+    padding-top: 2%;
     color:#3D087B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1px 1vw ;
+    font-size: 3vh;
 }
 
 
@@ -523,9 +540,10 @@ body{
     height: auto;
     width: 18%;    
     color:#3D087B;
-    padding-top: 4%;
+    padding-top: 2%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1px 1vw ;
+    font-size: 3vh;
 }
 
 
@@ -546,10 +564,11 @@ body{
     color:#3D087B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1px 1vw ;
-    padding-top: 7%;
+    padding-top: 3%;
     background: url('assets/Duration.png');
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 3vh;
 }
 
 
