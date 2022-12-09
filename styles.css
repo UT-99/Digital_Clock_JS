@@ -385,7 +385,7 @@ body{
 
 
 
-@media screen and (min-width : 220px) and (max-width : 780px){
+@media screen and (min-width : 120px) and (max-width : 780px){
     
 #hours, #mins, #sec , #AMPM, #timeText {
     font-size: 1.2vw ;
