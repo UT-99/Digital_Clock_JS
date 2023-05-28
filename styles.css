@@ -6,8 +6,8 @@
 #mainBodyFlexItems1{
    /* background-color: aqua; */
     width: 50vw;
-    margin: 1.5%;
-    height: 100%;
+    /* margin: 1.5% 1.5% 0 1.5%; */
+    height: 100vh;
 }
 
 #mainBodyFlexItems2{
@@ -129,13 +129,17 @@ body{
 
 
 #setAlarmGridItem2{
-    background-color:  #5F0089;
+    background-color:  #a147c8;
     grid-row:  1 / span 2  ;
     border-radius: 5px;
-    color: #F25CFE;
+    color: #dad0da;
     font-family: Georgia, 'Times New Roman', Times, sans-serif;
     padding: 4%;
     margin: 2%;
+    font-style: initial;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #timeDiv{

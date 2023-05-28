@@ -1,3 +1,4 @@
+
 function time(){   
 
     var date = new Date();  // Date object to be created 
@@ -6,6 +7,9 @@ function time(){
     var min = date.getMinutes();
     var sec = date.getSeconds();
     var AMPM = '' ;     // string variable 
+
+    // console.log("hrs is " , hrs)
+
 
 
     
@@ -21,7 +25,14 @@ function time(){
         document.getElementById('AMPM').innerText = AMPM;
 
     }
-    else {
+   
+    else if (hrs === 12) {
+        document.getElementById('hours').innerText = hrs +   '\n'+ ' hour';
+        AMPM = 'PM';
+        document.getElementById('AMPM').innerText = AMPM;
+    }
+ 
+    else  {
         document.getElementById('hours').innerText = hrs +   '\n'+ ' hour';
         AMPM = 'AM';
         document.getElementById('AMPM').innerText = AMPM;
@@ -57,6 +68,14 @@ function time2(){
         document.getElementById('AMPM2').innerText = AMPM;
 
     }
+
+
+    else if (hrs === 12) {
+        document.getElementById('hours').innerText = hrs +   '\n'+ ' hour';
+        AMPM = 'PM';
+        document.getElementById('AMPM').innerText = AMPM;
+    }
+    
     else {
         document.getElementById('hours2').innerText = hrs +   '\n'+ ' hour';
         AMPM = 'AM';
@@ -110,10 +129,10 @@ function getTimeDetails(){
     
     // Setting value on Page 
 
-    document.getElementById('Wake').innerText ="Wake Up Time is : " + takeWakeUpValue;
-    document.getElementById('lunch').innerText ="Lunch Time is   : " + LunchTimeValue;
-    document.getElementById('nap').innerText ="Nap Time is     : " +  SetNapTimeValue;
-    document.getElementById('night').innerText ="Night Time is   : " +NightTimeValue ;
+    document.getElementById('Wake').innerText ="Wake Up Time : " + takeWakeUpValue;
+    document.getElementById('lunch').innerText ="Lunch Time   : " + LunchTimeValue;
+    document.getElementById('nap').innerText ="Nap Time     : " +  SetNapTimeValue;
+    document.getElementById('night').innerText ="Night Time   : " +NightTimeValue ;
 
 
     // Code for Image Change 
