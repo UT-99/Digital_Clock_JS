@@ -75,7 +75,7 @@ function time2(){
         AMPM = 'PM';
         document.getElementById('AMPM').innerText = AMPM;
     }
-    
+
     else {
         document.getElementById('hours2').innerText = hrs +   '\n'+ ' hour';
         AMPM = 'AM';
@@ -115,6 +115,12 @@ function getTimeDetails(){
         document.getElementById('AMPM').innerText = AMPM;
 
     }
+    else if (hrs === 12) {
+        document.getElementById('hours').innerText = hrs +   '\n'+ ' hour';
+        AMPM = 'PM';
+        document.getElementById('AMPM').innerText = AMPM;
+    }
+    
     else {
         document.getElementById('hours').innerText = hrs +   '\n'+ ' hour';
         AMPM = 'AM';
@@ -296,6 +302,12 @@ function getIamgeChangeForMobile(){
         document.getElementById('AMPM2').innerText = AMPM;
 
     }
+    else if (hrs === 12) {
+        document.getElementById('hours').innerText = hrs +   '\n'+ ' hour';
+        AMPM = 'PM';
+        document.getElementById('AMPM').innerText = AMPM;
+    }
+    
     else {
         document.getElementById('hours2').innerText = hrs +   '\n'+ ' hour';
         AMPM = 'AM';
